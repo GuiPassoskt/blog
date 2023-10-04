@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "Blog de conteúdos para devs.",
+  "main": "index.js",
+  "authors": {
+    "name": "Guilherme Moreira",
+    "email": "guipassoskt@gmail.com"
+  },
+  "repository": "/blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
